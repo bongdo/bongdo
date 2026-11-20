@@ -3,18 +3,16 @@
 Backend и инструменты для разработчиков: Go, TypeScript, Kotlin.
 Четвёртый курс Computer Engineering, Университет Антальи. Ищу удалённую работу.
 
-![opencode-web](assets/chat.png)
-
-![web-terminal](assets/terminal.png)
+![nit-web](assets/chat.png)
 
 ## Проекты
 
-- [opencode-web](https://github.com/bongdo/opencode-web) — веб-интерфейс к AI-агенту:
-  чаты, стриминг, вложения, несколько серверов в одном окне.
-- [opencode-android](https://github.com/bongdo/opencode-android) — тот же агент на
-  Android: Kotlin, Compose, офлайн-кэш.
-- [web-terminal](https://github.com/bongdo/web-terminal) и
-  [web-terminal-core](https://github.com/bongdo/web-terminal-core) — терминал в
+- [nit-web](https://github.com/bongdo/nit-web) — веб-интерфейс к AI-агенту:
+  чаты, стриминг, HTML прямо в сообщении, несколько серверов в одном окне.
+- [nit-android](https://github.com/bongdo/nit-android) — тот же агент на Android:
+  Kotlin, Compose, офлайн-кэш.
+- [nit-terminal](https://github.com/bongdo/nit-terminal) и
+  [nit-terminal-core](https://github.com/bongdo/nit-terminal-core) — терминал в
   браузере: один бинарник, tmux-сессии, вкладки.
 - [pero-editor](https://github.com/bongdo/pero-editor) — терминальный редактор кода:
   вкладки, LSP, мышь, поиск и замена, AI-подсказки.
