@@ -1,44 +1,31 @@
 # Bogdan Sergeevichev
 
-Backend and developer-tools engineer. I write Go, TypeScript and Kotlin, and I ship
-systems that run every day instead of demos: an ERP that a real business uses for sales,
-stock, cash shifts and fiscal receipts; a programming language with its own compiler and
-LSP; terminal and web tools for working with AI coding agents.
+Backend и инструменты для разработчиков: Go, TypeScript, Kotlin.
+Четвёртый курс Computer Engineering, Университет Антальи. Ищу удалённую работу.
 
-Fourth-year Computer Engineering student at Antalya Bilim University (2023–2027).
-Open to remote backend and tooling work.
+![opencode-web](assets/chat.png)
 
-## What I have built
+![web-terminal](assets/terminal.png)
 
-| Project | What it is | Stack |
-|---|---|---|
-| [nit-gui](https://github.com/bongdo/nit-gui) | Web GUI for the OpenCode AI coding agent: sessions, streaming transcript, attachments, several agent servers behind one login | Go, React 19, TypeScript, SSE |
-| [nit-android](https://github.com/bongdo/nit-android) | Native Android client for the same agent: SSE with reconnect, offline cache, encrypted session storage | Kotlin, Compose |
-| [term-gui](https://github.com/bongdo/term-gui) + [termcore](https://github.com/bongdo/termcore) | Web terminal: one Go binary with an embedded SPA, one tmux shell per workspace, PTY engine extracted into a reusable module | Go, React, xterm.js, tmux |
-| [strizh](https://github.com/bongdo/strizh) | Application language with a Go runtime: Hare-like syntax, sum types, structured parallelism — lexer, parser, semantic analysis, codegen, formatter, LSP | Go, Ink |
-| [pero](https://github.com/bongdo/pero) | Modeless terminal code editor with LSP, mouse, tabs and AI assist | Go, Bubble Tea |
-| [oracle-nix](https://github.com/bongdo/oracle-nix) | Reproducible NixOS image for Oracle Cloud A1 with Tailscale, Caddy and SearXNG | Nix |
-| [telegram-tui](https://github.com/bongdo/telegram-tui) | Mouse-first Telegram client for the terminal | Go |
-| [chinese-cards](https://github.com/bongdo/chinese-cards) | Offline-first flashcards with a Go sync server | Expo, Go |
+## Проекты
 
-## How I work
+- [opencode-web](https://github.com/bongdo/opencode-web) — веб-интерфейс к AI-агенту:
+  чаты, стриминг, вложения, несколько серверов в одном окне.
+- [opencode-android](https://github.com/bongdo/opencode-android) — тот же агент на
+  Android: Kotlin, Compose, офлайн-кэш.
+- [web-terminal](https://github.com/bongdo/web-terminal) и
+  [web-terminal-core](https://github.com/bongdo/web-terminal-core) — терминал в
+  браузере: один бинарник, tmux-сессии, вкладки.
+- [pero-editor](https://github.com/bongdo/pero-editor) — терминальный редактор кода:
+  вкладки, LSP, мышь, поиск и замена, AI-подсказки.
+- [ink-lang](https://github.com/bongdo/ink-lang) — свой язык программирования:
+  компилятор, LSP, форматтер, рантайм на Go.
 
-- One process, one binary where possible: SQLite instead of a cluster, systemd instead of
-  an orchestrator, backups before migrations.
-- Validation at every boundary: role checks in guards *and* database constraints, signed
-  cookies shared between services, health checks before anything is published.
-- Readable code over clever code. If a shortcut has a known limit, it is written down next
-  to the shortcut.
+## Стек
 
-## Toolbox
+Go, TypeScript, React, SQL, Kotlin; PostgreSQL, SQLite; Linux, NixOS, systemd,
+nginx, Caddy, Docker, Tailscale.
 
-**Languages** Go, TypeScript/JavaScript, SQL, Kotlin, Python, Bash; some Zig, Nim, C3.
-**Backend** net/http, PostgreSQL, SQLite, GORM, SSE, RBAC, HMAC/TOTP, FIFO costing.
-**Frontend** React 19, Tailwind 4, Vite, CodeMirror 6, xterm.js.
-**Mobile** Kotlin/Compose, Expo/React Native.
-**Tooling** compilers, parsers, LSP, formatters, Bubble Tea, PTY, WebGL2.
-**Infra** Linux, NixOS, systemd, nginx, Caddy, Docker, Tailscale.
-
-## Contact
+## Связь
 
 [bongdoq@gmail.com](mailto:bongdoq@gmail.com) · [t.me/bongdo](https://t.me/bongdo)
